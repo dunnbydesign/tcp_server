@@ -1,0 +1,15 @@
+{
+  "name": "tcp_server",
+  "version": "1.0.0",
+  "description": "TCP server that saves each TCP request to its own file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jeff Dunn",
+  "license": "ISC",
+  "dependencies": {
+    "node-uuid": "^1.4.3"
+  }
+}
